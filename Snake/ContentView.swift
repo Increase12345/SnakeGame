@@ -23,7 +23,7 @@ struct ContentView: View {
     @State private var dir = direction.down
     @State private var posArray = [CGPoint(x: 0, y: 0)]
     @State private var foodPos = CGPoint(x: 0, y: 0)
-    let snakeSize: CGFloat = 15
+    let snakeSize: CGFloat = 20
     let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     
     var body: some View {
@@ -35,6 +35,7 @@ struct ContentView: View {
                 ForEach(0..<posArray.count, id: \.self) { index in
                     Rectangle()
                         .frame(width: snakeSize, height: snakeSize)
+                        .cornerRadius(30)
                     // Snake color
                         .foregroundColor(Color(red: 0.1, green: 0.3, blue: 0.6))
                         .position(posArray[index])
@@ -42,6 +43,7 @@ struct ContentView: View {
                 Rectangle()
                     .fill(Color(red: 0.6, green: 0.2, blue: 0.1))
                     .frame(width: snakeSize, height: snakeSize)
+                    .cornerRadius(30)
                     .position(foodPos)
             }
                 
