@@ -2,6 +2,7 @@
 <h3 align="center">Fun and simple game</h3>
 
 <p align="center">
-  <img src="https://github.com/Increase12345/SnakeGame/assets/98255061/6af4932e-f097-4160-b4d4-761e739206b2" width="200" />
-  <img src="https://github.com/Increase12345/SnakeGame/assets/98255061/4c2416b0-e4d3-4084-8caf-c719454b841b" width="200" />
+  <img src="https://github.com/Increase12345/SnakeGame/assets/98255061/e3cffda5-d5c6-4f04-8039-1522d39dab7b" width="200" />
+  <img src="https://github.com/Increase12345/SnakeGame/assets/98255061/62cda9e5-ff49-488e-88fb-e276d222c4a2" width="200" />
 </p>
+
